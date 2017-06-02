@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		20182F0E1DFD001500E83215 /* AEAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 20182F0D1DFD001500E83215 /* AEAnimator.m */; };
-		2046EA2D1EBE19DB00F97F68 /* HyphenateLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2046EA2C1EBE19DB00F97F68 /* HyphenateLite.framework */; };
 		20827C811E0E76DC0046F276 /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20827C801E0E76DC0046F276 /* ProvinceModel.m */; };
 		20827C841E10AE3D0046F276 /* CouponVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20827C831E10AE3D0046F276 /* CouponVC.m */; };
 		20827C8B1E10D4170046F276 /* CouponItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 20827C8A1E10D4170046F276 /* CouponItemVC.m */; };
 		20827C8E1E10E64A0046F276 /* CouponModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20827C8D1E10E64A0046F276 /* CouponModel.m */; };
 		2099BFAD1E33726200E7CAA5 /* TrackOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2099BFAC1E33726200E7CAA5 /* TrackOrderCell.m */; };
+		20F9FD601EE133A8002AFA57 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F9FD5F1EE133A8002AFA57 /* libc++abi.tbd */; };
 		FD0B2B1C1E56A9FA001D13CF /* LimitBuyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2B1B1E56A9FA001D13CF /* LimitBuyView.m */; };
 		FD0B2B1F1E56C462001D13CF /* DesignerSayView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2B1E1E56C462001D13CF /* DesignerSayView.m */; };
 		FD0B2B221E56C59A001D13CF /* WelfareCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0B2B211E56C59A001D13CF /* WelfareCenterView.m */; };
@@ -343,7 +343,6 @@
 /* Begin PBXFileReference section */
 		20182F0C1DFD001500E83215 /* AEAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAnimator.h; sourceTree = "<group>"; };
 		20182F0D1DFD001500E83215 /* AEAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEAnimator.m; sourceTree = "<group>"; };
-		2046EA2C1EBE19DB00F97F68 /* HyphenateLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HyphenateLite.framework; sourceTree = "<group>"; };
 		20827C7F1E0E76DC0046F276 /* ProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
 		20827C801E0E76DC0046F276 /* ProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
 		20827C821E10AE3D0046F276 /* CouponVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponVC.h; sourceTree = "<group>"; };
@@ -354,6 +353,7 @@
 		20827C8D1E10E64A0046F276 /* CouponModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponModel.m; sourceTree = "<group>"; };
 		2099BFAB1E33726200E7CAA5 /* TrackOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackOrderCell.h; sourceTree = "<group>"; };
 		2099BFAC1E33726200E7CAA5 /* TrackOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackOrderCell.m; sourceTree = "<group>"; };
+		20F9FD5F1EE133A8002AFA57 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		2E18ECDE7D672DA9F32A20E2 /* Pods-ArtEast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtEast.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtEast/Pods-ArtEast.release.xcconfig"; sourceTree = "<group>"; };
 		54E1A2B87AB2403B8D5AD28B /* libPods-ArtEast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArtEast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCC5F8466E9C905660EB834 /* Pods-ArtEast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtEast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtEast/Pods-ArtEast.debug.xcconfig"; sourceTree = "<group>"; };
@@ -979,6 +979,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F9FD601EE133A8002AFA57 /* libc++abi.tbd in Frameworks */,
 				FDEA71A61DE5937300E84CA0 /* libz.tbd in Frameworks */,
 				FDEA71A51DE5937300E84CA0 /* ImageIO.framework in Frameworks */,
 				FD6938FC1E2DCC7D001993B9 /* MobileCoreServices.framework in Frameworks */,
@@ -986,7 +987,6 @@
 				FDD39C3E1E2DFE5A004D0E4E /* AudioToolbox.framework in Frameworks */,
 				FDD39C3C1E2DFE52004D0E4E /* CoreMedia.framework in Frameworks */,
 				FD2CC1AB1E2F61F900BA7DE1 /* HyphenateLite.framework in Frameworks */,
-				2046EA2D1EBE19DB00F97F68 /* HyphenateLite.framework in Frameworks */,
 				FD6939021E2DCCAF001993B9 /* MapKit.framework in Frameworks */,
 				FD0DB1141E2E273100561643 /* libopencore-amrwb.a in Frameworks */,
 				FD6939001E2DCCA3001993B9 /* CoreLocation.framework in Frameworks */,
@@ -1029,6 +1029,7 @@
 		BA5E8105ED7BC279D857C434 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20F9FD5F1EE133A8002AFA57 /* libc++abi.tbd */,
 				FDD39C3D1E2DFE5A004D0E4E /* AudioToolbox.framework */,
 				FDD39C3B1E2DFE52004D0E4E /* CoreMedia.framework */,
 				FD6939011E2DCCAF001993B9 /* MapKit.framework */,
@@ -2243,7 +2244,6 @@
 		FD848F341E1CE62C00792FD6 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				2046EA2C1EBE19DB00F97F68 /* HyphenateLite.framework */,
 				FD848F351E1CE62C00792FD6 /* AlipaySDK */,
 			);
 			path = ThirdParty;
@@ -2652,7 +2652,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		FDEA71BA1DE5937300E84CA0 /* [CP] Embed Pods Frameworks */ = {
@@ -3169,6 +3169,7 @@
 					"$(PROJECT_DIR)/ArtEast/ThirdParty/AlipaySDK",
 					"$(PROJECT_DIR)/ArtEast/Classes/EaseMob(环信)/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
 					"$(PROJECT_DIR)/ArtEast/Classes/EaseMob(环信)/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/ArtEast/ThirdParty",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zsny.jiaq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3211,6 +3212,7 @@
 					"$(PROJECT_DIR)/ArtEast/ThirdParty/AlipaySDK",
 					"$(PROJECT_DIR)/ArtEast/Classes/EaseMob(环信)/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb",
 					"$(PROJECT_DIR)/ArtEast/Classes/EaseMob(环信)/EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb",
+					"$(PROJECT_DIR)/ArtEast/ThirdParty",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zsny.jiaq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
